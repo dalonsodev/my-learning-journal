@@ -109,9 +109,6 @@ body {
   }
   
   header {
-    position: fixed;
-    width: 100%;
-    max-width: 1095px;
     display: flex;
     justify-content: space-between;
     align-items: center;
