@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Regular.woff2') format('woff2');
+    src: url('../fonts/SourceSansPro-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Semibold.woff2') format('woff2');
+    src: url('../fonts/SourceSansPro-Semibold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Bold.woff2') format('woff2');
+    src: url('../fonts/SourceSansPro-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -71,6 +71,10 @@ nav a {
 
 
 /* ----- Typography ----- */
+
+body {
+  font-family: var(--main-font);
+}
 
 .featured-title,
 .article-heading {
@@ -149,7 +153,7 @@ header {
 }
 
 .featured {
-    background-image: url("images/article-image-hero.png");
+    background-image: url("../images/article-image-hero.png");
     background-color: var(--featured-bg);
     background-size: cover;
     background-position: center;
@@ -376,7 +380,7 @@ footer {
 
 @media (min-width: 621px) {
     .featured {
-        background-image: url("images/article-image.png");
+        background-image: url("../images/article-image.png");
     }
 }
 
